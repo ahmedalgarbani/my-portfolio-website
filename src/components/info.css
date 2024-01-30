@@ -1,0 +1,116 @@
+*{
+     font-family: 'Tajawal', sans-serif;;
+}
+
+
+.info__title{
+font-size: var(--font-normal);
+display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main-info{
+    /* margin: 40px 10px; */
+    margin-bottom: 5rem;
+        margin-top: 4rem;
+    position: relative;
+/* background-color: red; */
+height: 350px;
+overflow: hidden;
+}
+
+.info__me{
+    width: 100%;
+    position: relative;
+   
+
+}
+
+.info__subtitle{
+    position: relative;
+    font-size: var(--h3-font-size);
+    /* padding-left: 5.4rem; */
+    text-align: center;
+font-weight: 700;
+color: teal;
+margin-bottom: var(--mb-1);
+border-left: 3px teal solid;
+border-radius:3px ;
+padding:0;
+}
+
+
+.info_descip {
+direction: rtl;
+}
+
+
+.info__img{
+    background:url(../assets/new.png); 
+    width: 689px;
+    max-width: 100%;
+
+    height: 300px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+svg.button__icon.cv{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    position: absolute;
+    right: 1px;
+    top: 4px;
+
+}
+.cv{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    width: 160px;
+    padding: 10px;
+    height: 60px;
+    /* align-items: center; */
+}
+
+.more{
+    position: relative;
+    font-size: var(--h3-font-size);
+    /* padding-left: 5.4rem; */
+    text-align: center;
+font-weight: 700;
+color: teal;
+margin-bottom: var(--mb-1);
+border-left: 3px teal solid;
+border-radius:3px ;
+padding:0;
+}
+#pre{
+    font-weight: 500;
+}
+
+/* screen */
+/*
+@media screen and (max-width: 650px) {
+    *{
+        font-family: 'Tajawal', sans-serif;;
+   }
+   .info__img{
+    background-color: red;
+    background:url(../assets/programming.png); 
+    width: 200px;
+    height: 200px;
+     background-repeat: no-repeat;
+     background-size: cover;
+    position: absolute;
+    top:0;
+    right: 0;
+
+   }
+
+}
+*/

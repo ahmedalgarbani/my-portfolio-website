@@ -1,0 +1,161 @@
+.skill__title{
+    font-size: var(--font-normal);
+    display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+   
+    
+    .Skills_icons-container__gquKr{
+        display: grid;
+        
+        grid-template-columns: repeat(4,4fr);
+    /* gap: 2rem; */
+  
+        /* repeat(auto-fit,minmax(20rem,1fr)); */
+        justify-items: center;
+        margin-bottom: 10rem;
+        margin-top: 4rem;
+        row-gap: 4rem;
+    }
+    .language_item{
+        text-align: center;
+        border-radius: 50%;
+        
+        border: 1px black solid;
+    }
+
+    .Skills_card__2OoQ1{
+    
+align-items: center;
+border-radius: 50%;
+
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+display: flex;
+flex-direction: column;
+
+gap: 1.4rem;
+height: 10rem;
+
+justify-content: center;
+padding: 1rem;
+transition: all .2s ease;
+width: 10rem;
+    }
+
+    .svgg{
+        width: 70px !important;
+        height: 70px !important;
+        color: black !important;
+    }
+
+    figure span{
+        font-weight: bold;
+        
+    }
+
+.css-svg{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg);
+filter: grayscale(100%); 
+}
+
+.fil{
+     
+     filter: grayscale(100%); 
+     transition: 0.4s all;
+}
+
+.fil:hover{
+     filter:none;
+     text-shadow: none;
+     color:black !important;
+     font-weight: 600 !important;
+}
+
+
+    .Skills_card__2OoQ1:hover{
+/* width:10.3rem ;
+height: 10.3rem; */
+box-shadow: 0 0 5px #000, 0 0 10px #000, 0 0 15px #000, 0 0 20px #000;
+
+       }
+
+    /* 
+    html #e34f26
+    css #1572b6
+    js #
+    react #61dafb
+     */
+     
+     
+.nextt{
+    background:url(../assets/Next.js.png); 
+    width: 130px;
+    height: 130px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+}
+
+  
+.Laravel{
+    background:url(../assets/laravel-2.svg); 
+    width: 80px;
+    height: 80px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+
+}
+
+  
+.Git{
+    background:url(https://git-scm.com/images/logos/downloads/Git-Icon-1788C.svg); 
+    width: 80px;
+    height: 80px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+ 
+.Html{
+    background:url(../assets/html-1.svg); 
+    width: 80px;
+    height: 80px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.Css{
+    background:url(../assets/css-3.svg); 
+    width: 80px;
+    height: 80px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+.JavaScript{
+    background:url(../assets/javascript-1.svg); 
+    width: 80px;
+    height: 80px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+
+
+.React{
+    background:url(../assets/reactjs-icon.svg); 
+    width: 80px;
+    height: 80px;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+
+     

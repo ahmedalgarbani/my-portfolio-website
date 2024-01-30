@@ -1,0 +1,47 @@
+
+
+.footer__main{
+
+/* flex-direction: column; */
+gap: 1rem;
+display: flex;
+justify-content: center;
+flex-direction: column;
+border-top: 1px black solid;
+     
+}
+
+.Footer_btn__JIdlr{
+   background-color: transparent; 
+   
+}
+
+.Footer_icons__vFgv7{
+    border-top: 2px black dashed;
+    width: 130px;
+padding-top: 10px;
+display: flex;
+justify-content: center;
+}
+
+.flex__footer{
+    display: flex;
+    justify-content: center;
+   
+}
+.footer__icon{
+    color:black;
+}
+.footer__icon:hover{
+    width: 2.3em;
+    height: 2.3em;
+}
+
+.twitterX{
+    background:url(../assets/twX.svg); 
+    width: 2.5em;
+    height: 2.3em;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color:gray;
+}
